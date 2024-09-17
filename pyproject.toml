@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "goit-ds-hw-03"
+version = "0.1.0"
+description = ""
+authors = ["data-tamer2410 <vitaliy.dayneko2410@gmail.com>"]
+packages = [
+    { include = "project"}
+]
+
+[tool.poetry.dependencies]
+python = "~3.12"
+pymongo = "^4.8.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pylint = "^3.2.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
