@@ -1,4 +1,4 @@
-"""Task 2 (part 2): save data to MongoDB. """
+"""Task 2 (part 2): Save data to MongoDB. """
 
 import json
 import os
