@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "ds-manipulation-with-mongodb"
 version = "0.1.0"
-description = ""
+description = "Creating and manipulating MongoDB databases in Python."
 authors = ["data-tamer2410 <vitaliy.dayneko2410@gmail.com>"]
+readme = "README.md"
 packages = [
     { include = "project"}
 ]
